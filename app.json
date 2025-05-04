@@ -4,11 +4,11 @@
     "slug": "EfratSteinbergProject",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/b-5.jpg",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
     "splash": {
-      "image": "./assets/splash-icon.png",
+      "image": "./assets/b-5.jpg",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -17,12 +17,18 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/b-5.jpg",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.efratsteinberg.EfratSteinbergProject"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "2d61b5d1-f5b7-4e57-8fed-fb4ec0d53d81"
+      }
     }
   }
 }
